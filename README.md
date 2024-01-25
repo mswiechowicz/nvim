@@ -16,6 +16,8 @@ nvim packer.lua
 :PackerSync
 ```
 
+### Keyboard shortcuts
+
 #### Git
 
 ```
@@ -31,4 +33,4 @@ gg - git_commit_and_push"
 
 #### Formatting
 
-`<leader>ff`
+`<leader>ff - format file`
