@@ -41,6 +41,8 @@ return require('packer').startup(function(use)
 
     use 'nvim-lualine/lualine.nvim'
 
+    use 'goolord/alpha-nvim'
+
     use 'folke/trouble.nvim'
 
     use 'nvimtools/none-ls.nvim'

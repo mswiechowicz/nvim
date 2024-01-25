@@ -12,6 +12,5 @@ vim.keymap.set("n", "N", "Nzzzv")
 
 vim.keymap.set("x", "<leader>p", [["_dP]])
 
--- if using iterm2 remap in settings
 vim.keymap.set("n", "<leader>w", ":w<CR>")
-
+vim.keymap.set("n", "<leader>q", ":q<CR>")
