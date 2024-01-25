@@ -12,3 +12,6 @@ nvim packer.lua
 :so
 :PackerSync
 ```
+
+#### Formatting
+``` <leader>ff ```
