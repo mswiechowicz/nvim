@@ -49,6 +49,7 @@ gg - git_commit_and_push"
 #### Comments
 
 ```
+<C-/> - Toggles the current line using linewise comment (Also posible to use it in Visual model)
 gcc - Toggles the current line using linewise comment
 gbc - Toggles the current line using blockwise comment
 [count]gcc - Toggles the number of line given as a prefix-count using linewise
