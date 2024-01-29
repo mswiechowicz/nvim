@@ -6,6 +6,10 @@
 
 ### Keyboard shortcuts
 
+
+#### Terminal
+`<C-/> - toggle terminal`
+
 #### Telescope
 
 ```
