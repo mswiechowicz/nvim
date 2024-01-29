@@ -8,7 +8,7 @@
 
 
 #### Terminal
-`<C-/> - toggle terminal`
+`<C-t> - toggle terminal`
 
 #### Telescope
 
