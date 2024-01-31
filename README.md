@@ -10,14 +10,19 @@
 
 In progress
 
-just for me to remember
 ```
-<C-x> go to file selection as a split   
-<C-v> go to file selection as a vsplit   
+[b - prev buffer
+]b - next buffer
+<C-b> - close buffer
+<leader>b - showbuffers
+
+<C-x> go to file selection as a split
+<C-v> go to file selection as a vsplit
 <C-t> go to a file in a new tab
 ```
 
 #### Terminal
+
 `<C-t> - toggle terminal`
 
 #### Telescope
@@ -30,14 +35,15 @@ just for me to remember
 ```
 
 #### Neo tree file explorers
+
 ```
 <leader>e - toggle explorer
 <leader>ge - toggle git explorer
 ```
 
-
 #### Undotree
-```<leader>u - changes history in file```
+
+`<leader>u - changes history in file`
 
 #### Git
 
@@ -56,13 +62,14 @@ gg - git_commit_and_push"
 [h - go prev hunk
 <leader>gsh - stage hunk
 <leader>gu - undo stage hunk
-<leader>gsb - stage buffer 
-<leader>gd - diff this 
+<leader>gsb - stage buffer
+<leader>gd - diff this
 <leader>gb - toggle current line blame
 <leader>gp - preview hunk changes
 ```
 
 #### LSP
+
 ```
 <C-space> - open completion menu
 <C-e> - close completion menu
@@ -86,14 +93,15 @@ gb[count]{motion} - (Op-pending) Toggles the region using blockwise comment
 ```
 
 #### Trouble
+
 ```
 <leader>xx - show troubles
 <leader>xw - show troubles (workspace diagnostic)
 <leader>xd - show troubles (document diagnostic)
 ```
 
-
 #### Testing (works for Jest)
+
 ```
 <leader>tt - Run File
 <leader>tT - Run All Test Files
@@ -102,15 +110,14 @@ gb[count]{motion} - (Op-pending) Toggles the region using blockwise comment
 <leader>ts - Toggle Summary
 <leader>to - Show Output
 <leader>tO - Toggle Output Panel
-<leader>tS - Stop 
+<leader>tS - Stop
 ```
 
 #### Harpoon
+
 ```
 <leader>a - append to quick menu
 <C-e> - toggle quick menu
 <C-S-P> - prev element in quick menu
 <C-S-N> - next element in quick menu
 ```
-
-
