@@ -8,7 +8,14 @@
 
 #### General
 
-in progress
+In progress
+
+just for me to remember
+```
+<C-x> go to file selection as a split   
+<C-v> go to file selection as a vsplit   
+<C-t> go to a file in a new tab
+```
 
 #### Terminal
 `<C-t> - toggle terminal`
