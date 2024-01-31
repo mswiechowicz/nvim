@@ -11,7 +11,7 @@ return {
 		name = "catppuccin",
 		priority = 1000,
     -- config = function ()
-    --   vim.cmd("colorscheme catppuccin.machciato")
+    --   vim.cmd("colorscheme catppuccin-machciato")
     -- end
 	},
 }
