@@ -1,1 +1,1 @@
-return { 'rstacruz/vim-closer' }
+return { "rstacruz/vim-closer" }

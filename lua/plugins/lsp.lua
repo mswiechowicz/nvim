@@ -77,6 +77,7 @@ return {
         ['<Tab>'] = cmp.mapping.select_next_item(cmp_select),
         ['<CR>'] = cmp.mapping.confirm({ select = true }),
         ['<C-Space>'] = cmp.mapping.complete(),
+        ["<C-e>"] = cmp.mapping.close()
       }),
     })
   end

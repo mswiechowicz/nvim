@@ -19,24 +19,24 @@ return {
           vim.keymap.set(mode, l, r, opts)
         end
 
-        map('n', ']c', function()
-          if vim.wo.diff then return ']c' end
+        map('n', ']h', function()
+          if vim.wo.diff then return ']h' end
           vim.schedule(function() gs.next_hunk() end)
           return '<Ignore>'
         end, {expr=true})
 
-        map('n', '[c', function()
-          if vim.wo.diff then return '[c' end
+        map('n', '[h', function()
+          if vim.wo.diff then return '[h' end
           vim.schedule(function() gs.prev_hunk() end)
           return '<Ignore>'
         end, {expr=true})
 
-        map('n', '<leader>hs', gs.stage_hunk)
-        map('n', '<leader>hS', gs.stage_buffer)
-        map('n', '<leader>hd', gs.diffthis)
-        map('n', '<leader>hD', function() gs.diffthis('~') end)
-        map('n', '<leader>tb', gs.toggle_current_line_blame)
-
+        map('n', '<leader>gsh', gs.stage_hunk)
+        map('n', '<leader>gu', gs.undo_stage_hunk)
+        map('n', '<leader>gsb', gs.stage_buffer)
+        map('n', '<leader>gd', gs.diffthis)
+        map('n', '<leader>gb', gs.toggle_current_line_blame)
+        map('n', '<leader>gp', gs.preview_hunk)
       end
     }
   end

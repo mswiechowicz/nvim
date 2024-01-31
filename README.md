@@ -6,6 +6,9 @@
 
 ### Keyboard shortcuts
 
+#### General
+
+in progress
 
 #### Terminal
 `<C-t> - toggle terminal`
@@ -33,6 +36,7 @@
 
 ```
 <leader>ge - opens git floating window
+In window:
 A  - git_add_all
 gu - git_unstage_file
 ga - git_add_file
@@ -40,6 +44,22 @@ gr - git_revert_file"
 gc - git_commit"
 gp - git_push"
 gg - git_commit_and_push"
+---
+]h - go next hunk
+[h - go prev hunk
+<leader>gsh - stage hunk
+<leader>gu - undo stage hunk
+<leader>gsb - stage buffer 
+<leader>gd - diff this 
+<leader>gb - toggle current line blame
+<leader>gp - preview hunk changes
+```
+
+#### LSP
+```
+<C-space> - open completion menu
+<C-e> - close completion menu
+Move simply with arrows or tab and click enter to use suggestion
 ```
 
 #### Formatting
