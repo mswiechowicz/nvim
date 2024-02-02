@@ -1,4 +1,4 @@
-# NeoVim config
+# neovim config
 
 #### Copy all files to
 
