@@ -100,7 +100,9 @@ gb[count]{motion} - (Op-pending) Toggles the region using blockwise comment
 <leader>xd - show troubles (document diagnostic)
 ```
 
-#### Testing (works for Jest)
+#### Testing (works for Jest and Vitest)
+
+command to run test must be `npm run test:unit`
 
 ```
 <leader>tt - Run File
@@ -111,6 +113,27 @@ gb[count]{motion} - (Op-pending) Toggles the region using blockwise comment
 <leader>to - Show Output
 <leader>tO - Toggle Output Panel
 <leader>tS - Stop
+
+In Summary panel:
+a - attach
+m - mark
+M - clear marked
+T - clear target
+d - debug
+D - debug marked
+<CR>/enter - expand
+e - expand all
+i - jump to
+J - next failed
+K - prev failed
+o - output
+r - run
+R - run marked
+O - short
+u - stop
+t - target
+w - watch
+
 ```
 
 #### Harpoon
