@@ -20,10 +20,12 @@ return {
   config = function()
     require("neotest").setup({
       adapters = {
-        require("neotest-vitest"),
+        require("neotest-vitest")({
+          vitestCommand = "npm run test:unit --",
+        }),
+
         require('neotest-jest')({
           jestCommand = "npm run test:unit --",
-          jestConfigFile = "custom.jest.config.ts",
           env = { CI = true },
           cwd = function(path)
             return vim.fn.getcwd()
