@@ -25,6 +25,15 @@ In progress
 
 `<C-t> - toggle terminal`
 
+#### Flash search
+```
+s{string} - search for string
+After typing f{char} or F{char}, you can repeat the motion with f or go to the previous match with F to undo a jump.
+Similarly, after typing t{char} or T{char}, you can repeat the motion with t or go to the previous match with T.
+; - next match
+, - previous match
+```
+
 #### Telescope
 
 ```
