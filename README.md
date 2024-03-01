@@ -153,3 +153,13 @@ w - watch
 <C-S-P> - prev element in quick menu
 <C-S-N> - next element in quick menu
 ```
+
+#### Tabs (barbar)
+```
+<C-,> - previous tab (buffer)
+<C-.> - next tab (buffer)
+<C-1> - first tab
+<C-2> - second
+Same for others numbers
+<C-p> - buffer picking
+```
