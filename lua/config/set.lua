@@ -8,4 +8,4 @@ vim.opt.shiftwidth = 2
 vim.opt.hlsearch = false
 vim.opt.incsearch = true
 
-vim.opt.scrolloff = 16
+vim.opt.scrolloff = 24

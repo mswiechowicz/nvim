@@ -87,7 +87,10 @@ Move simply with arrows or tab and click enter to use suggestion
 
 #### Formatting
 
-`<leader>ff - format file`
+```
+<leader>ff - format file
+<C-e> - eslint fix problems all in file
+```
 
 #### Comments
 
@@ -149,7 +152,7 @@ w - watch
 
 ```
 <leader>a - append to quick menu
-<C-e> - toggle quick menu
+<C-h> - toggle quick menu
 <C-S-P> - prev element in quick menu
 <C-S-N> - next element in quick menu
 ```
@@ -162,4 +165,21 @@ w - watch
 <C-2> - second
 Same for others numbers
 <C-p> - buffer picking
+```
+
+#### Mini.files 
+```
+<leader>m - open mini files
+Inside explorer:
+close       = 'q',
+go_in       = 'l',
+go_in_plus  = 'L',
+go_out      = 'h',
+go_out_plus = 'H',
+reset       = '<BS>',
+reveal_cwd  = '@',
+show_help   = 'g?',
+synchronize = '=',
+trim_left   = '<',
+trim_right  = '>',
 ```

@@ -8,10 +8,7 @@ return {
 		"3rd/image.nvim",
 	},
 	config = function()
-		vim.keymap.set("n", "<leader>fe", ":Neotree toggle<CR>", { desc = "Explorer NeoTree (root dir)" })
-
-		vim.keymap.set("n", "<leader>e", "<leader>fe", { desc = "Explorer NeoTree (cwd)", remap = true })
-
+		vim.keymap.set("n", "<leader>e", ":Neotree toggle<CR>", { desc = "Explorer NeoTree (root dir)" })
 		vim.keymap.set("n", "<leader>ge", ":Neotree toggle git_status float<CR>", { desc = "Git explorer" })
 
 		vim.g.loaded_netrwPlugin = 1
@@ -19,7 +16,7 @@ return {
 
 		require("neo-tree").setup({
 			window = {
-				width = 25,
+				width = 30,
 			},
 			filesystem = {
 				filtered_items = {

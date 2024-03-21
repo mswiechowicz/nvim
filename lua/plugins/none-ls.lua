@@ -20,5 +20,6 @@ return {
     })
 
     vim.keymap.set('n', '<leader>ff', vim.lsp.buf.format, {})
+    vim.keymap.set('n', '<C-e>', ":EslintFixAll<CR>", {})
   end
 }
