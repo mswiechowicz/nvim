@@ -10,6 +10,7 @@ return {
 	config = function()
 		vim.keymap.set("n", "<leader>e", ":Neotree toggle<CR>", { desc = "Explorer NeoTree (root dir)" })
 		vim.keymap.set("n", "<leader>ge", ":Neotree toggle git_status float<CR>", { desc = "Git explorer" })
+		vim.keymap.set("n", "<leader>be", ":Neotree buffers toggle float<CR>", { desc = "Buffers explorer" })
 
 		vim.g.loaded_netrwPlugin = 1
 		vim.g.loaded_netrw = 1

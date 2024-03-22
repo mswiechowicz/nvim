@@ -14,11 +14,12 @@ In progress
 [b - prev buffer
 ]b - next buffer
 <C-b> - close buffer
-<leader>b - showbuffers
 
-<C-x> go to file selection as a split
-<C-v> go to file selection as a vsplit
-<C-t> go to a file in a new tab
+<C-h> - go to left window
+<C-l> - go to right window
+<C-k> - go to upper window
+<C-j> - go to down window
+<C-w>r - swap windows
 ```
 
 #### Terminal
@@ -40,7 +41,13 @@ Similarly, after typing t{char} or T{char}, you can repeat the motion with t or 
 <leader><leader> - find files
 <leader>gf - git files
 <leader>pg - grep
+<leader>bb - showbuffers
 <leader>th - telescope help tags
+
+In telescope
+<C-x> go to file selection as a split
+<C-v> go to file selection as a vsplit
+<C-t> go to a file in a new tab
 ```
 
 #### Neo tree file explorers
@@ -48,6 +55,14 @@ Similarly, after typing t{char} or T{char}, you can repeat the motion with t or 
 ```
 <leader>e - toggle explorer
 <leader>ge - toggle git explorer
+<leader>be - showbuffers
+
+In explorer
+S - open split
+s - open vsplit
+
+In buffers explorer
+bd - close buffer 
 ```
 
 #### Undotree

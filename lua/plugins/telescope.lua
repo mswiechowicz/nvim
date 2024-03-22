@@ -22,7 +22,7 @@ return {
 		vim.keymap.set("n", "<leader>gf", builtin.git_files, {})
 		vim.keymap.set("n", "<leader>pg", builtin.live_grep, {})
 		vim.keymap.set("n", "<leader>th", builtin.help_tags, {})
-		vim.keymap.set("n", "<leader>b", builtin.buffers, {})
+		vim.keymap.set("n", "<leader>bb", builtin.buffers, {})
 
 		local colors = require("onedarkpro.helpers").get_colors()
 		local TelescopeColor = {
