@@ -15,11 +15,19 @@ In progress
 ]b - next buffer
 <C-b> - close buffer
 
+```
+
+#### Windows
+```
 <C-h> - go to left window
 <C-l> - go to right window
 <C-k> - go to upper window
 <C-j> - go to down window
 <C-w>r - swap windows
+- resize vertical -5
+= resize vertical +5
+_ resize horizontal -2
++ resize horizontal +2
 ```
 
 #### Terminal

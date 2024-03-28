@@ -20,16 +20,22 @@ vim.keymap.set("n", "[b", "<cmd>bprevious<cr>", { desc = "Prev buffer" })
 vim.keymap.set("n", "]b", "<cmd>bnext<cr>", { desc = "Next buffer" })
 vim.keymap.set("n", "<C-b>", ":bd<cr>", { desc = "Close buffer" })
 
+-- Windows
 vim.keymap.set("n", "<C-h>", "<C-w>h")
 vim.keymap.set("n", "<C-l>", "<C-w>l")
 vim.keymap.set("n", "<C-k>", "<C-w>k")
 vim.keymap.set("n", "<C-j>", "<C-w>j")
 
+vim.keymap.set("n", "=", ":vertical resize +5<CR>")
+vim.keymap.set("n", "-", ":vertical resize -5<CR>")
+vim.keymap.set("n", "_", ":horizontal resize -2<CR>")
+vim.keymap.set("n", "+", ":horizontal resize +2<CR>")
+
 -- Allows to copy from and into clipboard
 vim.opt.clipboard = "unnamedplus"
 
 if vim.g.neovide then
-  vim.o.guifont ="FiraCode Nerd Font Mono:h12"
+  vim.o.guifont = "FiraCode Nerd Font Mono:h12"
   vim.keymap.set("n", "<D-s>", ":w<CR>")     -- Save
   vim.keymap.set("v", "<D-c>", '"+y')        -- Copy
   vim.keymap.set("n", "<D-v>", '"+P')        -- Paste normal mode

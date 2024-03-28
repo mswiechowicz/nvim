@@ -16,6 +16,7 @@ return {
 			},
 		})
 		require("telescope").load_extension("ui-select")
+    require('telescope').load_extension('projects')
 
 		local builtin = require("telescope.builtin")
 		vim.keymap.set("n", "<leader><leader>", builtin.find_files, {})

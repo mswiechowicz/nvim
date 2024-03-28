@@ -6,7 +6,7 @@ return {
 			shade_filetypes = { "none", "fzf" },
 		})
 
-    vim.keymap.set("n", "<C-t>", ":ToggleTerm direction=float<CR>", {})
+    vim.keymap.set("n", "<C-t>", ":ToggleTerm<CR>", {})
 
 		function _G.set_terminal_keymaps()
 			local opts = { buffer = 0 }
