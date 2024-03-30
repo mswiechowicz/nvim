@@ -175,7 +175,7 @@ w - watch
 
 ```
 <leader>a - append to quick menu
-<C-h> - toggle quick menu
+<leader>h - toggle quick menu
 <C-S-P> - prev element in quick menu
 <C-S-N> - next element in quick menu
 ```

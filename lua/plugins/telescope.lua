@@ -22,6 +22,7 @@ return {
 		vim.keymap.set("n", "<leader><leader>", builtin.find_files, {})
 		vim.keymap.set("n", "<leader>gf", builtin.git_files, {})
 		vim.keymap.set("n", "<leader>pg", builtin.live_grep, {})
+		vim.keymap.set("n", "<leader>pp", ":Telescope projects<CR>", {})
 		vim.keymap.set("n", "<leader>th", builtin.help_tags, {})
 		vim.keymap.set("n", "<leader>bb", builtin.buffers, {})
 
