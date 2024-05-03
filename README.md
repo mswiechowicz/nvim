@@ -206,3 +206,10 @@ synchronize = '=',
 trim_left   = '<',
 trim_right  = '>',
 ```
+
+#### Spectre
+```
+<leader>S - toggle Spectre
+<leader>sw - open spectre with selected word
+<leader>sp - same as above but only in this file
+```

@@ -2,6 +2,7 @@ return {
   "nvim-neotest/neotest",
   dependencies = {
     "nvim-lua/plenary.nvim",
+    "nvim-neotest/nvim-nio",
     "antoinemadec/FixCursorHold.nvim",
     "nvim-treesitter/nvim-treesitter",
     "marilari88/neotest-vitest",
@@ -27,7 +28,7 @@ return {
         require('neotest-jest')({
           jestCommand = "npm run test:unit --",
           env = { CI = true },
-          cwd = function(path)
+          cwd = function()
             return vim.fn.getcwd()
           end,
         }),
