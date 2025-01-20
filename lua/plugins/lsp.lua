@@ -50,7 +50,7 @@ return {
     -- read this: https://github.com/VonHeikemen/lsp-zero.nvim/blob/v3.x/doc/md/guides/integrate-with-mason-nvim.md
     require("mason").setup({})
     require("mason-lspconfig").setup({
-      ensure_installed = { "tsserver", "lua_ls", "eslint", "rust_analyzer" },
+      ensure_installed = { "ts_ls", "lua_ls", "eslint", "rust_analyzer" },
       handlers = {
         lsp_zero.default_setup,
         lua_ls = function()
@@ -63,6 +63,7 @@ return {
     local cmp = require("cmp")
     local cmp_select = { behavior = cmp.SelectBehavior.Select }
 
+    vim.keymap.set("n", "<C-e>", ":EslintFixAll<CR>", {})
     cmp.setup({
       sources = {
         { name = "path" },

@@ -1,4 +1,4 @@
-vim.opt.nu = true
+vim.opt.rnu = true
 vim.opt.termguicolors = true
 
 vim.opt.expandtab = true
